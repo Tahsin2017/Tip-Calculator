@@ -14,6 +14,7 @@
 		9CF75FB72138E64900447F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF75FB52138E64900447F1A /* LaunchScreen.storyboard */; };
 		9CF75FC22138E64900447F1A /* Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF75FC12138E64900447F1A /* Tip_CalculatorTests.swift */; };
 		9CF75FCD2138E64900447F1A /* Tip_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF75FCC2138E64900447F1A /* Tip_CalculatorUITests.swift */; };
+		9CF75FDB2139010000447F1A /* SettingViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF75FDA2139010000447F1A /* SettingViewControllerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9CF75FC82138E64900447F1A /* Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF75FCC2138E64900447F1A /* Tip_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorUITests.swift; sourceTree = "<group>"; };
 		9CF75FCE2138E64900447F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF75FDA2139010000447F1A /* SettingViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewControllerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		9CF75FA02138E64800447F1A = {
 			isa = PBXGroup;
 			children = (
+				9CF75FDA2139010000447F1A /* SettingViewControllerTableViewController.swift */,
 				9CF75FAB2138E64800447F1A /* Tip Calculator */,
 				9CF75FC02138E64900447F1A /* Tip CalculatorTests */,
 				9CF75FCB2138E64900447F1A /* Tip CalculatorUITests */,
@@ -187,6 +190,9 @@
 		9CF75FA12138E64800447F1A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Settings,
+				);
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Tahsin;
@@ -256,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF75FDB2139010000447F1A /* SettingViewControllerTableViewController.swift in Sources */,
 				9CF75FAF2138E64800447F1A /* ViewController.swift in Sources */,
 				9CF75FAD2138E64800447F1A /* AppDelegate.swift in Sources */,
 			);
